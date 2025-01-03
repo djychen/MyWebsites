@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dora Chen - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/web.css">
+</head>
+<body>
+    <header>
+        <h1>Dora Chen</h1>
+        <p>Web Developer</p>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>Hi, I'm Dora Chen, a passionate web application developer with experience in creating responsive and user-friendly websites. 
+            I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+    </section>
+    <section>
+        <table>
+            <tr>
+                <th>Get the weather for your city</th>
+                <th>Add an employee to your department</th>
+            </tr>
+            <tr>
+                <td><iframe width="400px" height="110px" src="GetWeather.html" title="API GET"></iframe></td>
+                <td><iframe width="400px" height="110px" src="PostEmployee.html" title="API POST"></iframe></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Skill Summary</h2>
+        <div class="items">
+            <div class="item-category">
+                <details>
+                    <summary><span id="item-button1" title="Click to see front end skills">Front End</span></summary>
+                    <div id="item-p1">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+            <div class="item-category">
+                <details>
+                    <summary><span id="item-button2" title="Click to see back end skills">Back End</span></summary>
+                    <div id="item-p2">
+                        <ul>
+                            <li>C#</li>
+                            <li>VB</li>
+                            <li>ASP.NET</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+            <div class="item-category">
+                <details>
+                    <summary><span id="item-button3" title="Click to see other skills">Other</span></summary>
+                    <div id="item-p3">
+                        <ul>
+                            <li>REST APIs</li>
+                            <li>Git</li>
+                            <li>Agile Methodologies</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                    </div>
+                </details>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>ASP .Net Core Web App</h3>
+                <p>A fully responsive website built with ASP.Net Core</p>
+            </div>
+            <div class="project">
+                <h3>Time Management Blazor App</h3>
+                <p>A Blazor application for time tracking.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Websites</h3>
+                <p>Custom-built portfolio websites (like this one!) showcasing my HTML, CSS, and JavaScript skills.</p>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="modules/display-items.js"> </script>
+    
+    <footer>
+        <p>© 2024 Dora Chen. All rights reserved.</p>
+    </footer>
+</body>
+</html>

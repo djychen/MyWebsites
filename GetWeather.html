@@ -1,0 +1,31 @@
+<!--Call the public weather API to get the weather for your city-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Get Weather API</title>
+  </head>
+  <body>
+  <main>
+    <div>
+      
+      <form autocomplete="off" style="margin-bottom: 10px;">
+        <table>
+          <tr>
+            <td>
+              <input type="text" id="input" placeholder="Enter city name">
+            </td>
+            <td>
+              <button id="get">Get</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <div id="responseField">
+      </div>
+    </div>
+  </main>
+  <script src="./modules/weatherGet.js"></script>
+</body>
+</html>
+
